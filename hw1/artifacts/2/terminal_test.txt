@@ -1,0 +1,102 @@
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/2$ echo -e "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18" > file1.txt
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/2$ echo -e "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18" > file2.txt
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/2$ python3 mgduck_tail.py file1.txt
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/2$ python3 mgduck_tail.py file1.txt file2.txt
+==> file1.txt <==
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+
+==> file2.txt <==
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/2$ echo -e "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18" | python3 mgduck_tail.py
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/2$ tail file1.txt
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/2$ tail file1.txt file2.txt
+==> file1.txt <==
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+
+==> file2.txt <==
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/2$ echo -e "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18" | tail
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+
