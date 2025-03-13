@@ -1,0 +1,27 @@
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/hw1/1$ echo -e "\nhello\n\nworld\n" > test.txt # запись тестового файла
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/hw1/1$ nl -b a test.txt
+     1	
+     2	hello
+     3	
+     4	world
+     5	
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/hw1/1$ python3 mgduck_nl.py test.txt
+     1	
+     2	hello
+     3	
+     4	world
+     5	
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/hw1/1$ echo -e "\nhello\n\nworld\n" > nl -b a # чтение из stdin
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/hw1/1$ echo -e "\nhello\n\nworld\n" | nl -b a # чтение из stdin
+     1	
+     2	hello
+     3	
+     4	world
+     5	
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/hw1/1$ echo -e "\nhello\n\nworld\n" | python3 mgduck_nl.py # чтение из stdin
+     1	
+     2	hello
+     3	
+     4	world
+     5	
+
