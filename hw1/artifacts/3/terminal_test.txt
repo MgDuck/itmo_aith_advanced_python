@@ -1,0 +1,19 @@
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/3$ echo -e "Wake up\nAnd smell the ashes\n" > test1.txt
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/3$ echo -e "Right text\nIn the\nWrong place" > test2.txt
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/3$ wc test1.txt
+ 3  6 29 test1.txt
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/3$ python3 mgduck_wc.py test1.txt
+3  6 29 test1.txt
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/3$ wc test1.txt test2.txt
+ 3  6 29 test1.txt
+ 3  6 30 test2.txt
+ 6 12 59 итого
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/3$ python3 mgduck_wc.py test1.txt test2.txt
+3  6 29 test1.txt
+3  6 30 test2.txt
+6 12 59 итого
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/3$ echo 'text' | wc
+      1       1       5
+mgduck@mgduck-ASUS-TUF-Dash-F15-FX517ZR-FX517ZR:~/mgduck/mgduck-space/mgduck-space/learning/AITH/Advanced Python/workspace/3$ echo 'text' | python3 mgduck_wc.py
+1  1 5
+
